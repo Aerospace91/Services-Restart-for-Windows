@@ -5,7 +5,11 @@ Various Windows Scripts for ease of use and automations
 ---
 ### Usage:
 Task Scheduler -> Create Task
+
 Action: Start a Program
+
 Program/Script: cmd.exe
+
 Add Arguments: \c "C:\Scripts\servicerestart.bat"
+
 Start in: C:\Scripts
