@@ -6,7 +6,9 @@ set "SERVICE=spooler"
 set "LOGFILE=%~dp0service_restart.log"
 set "INITIAL_WAIT_SEC=300"
 set "WAIT_INTERVAL_SEC=5"
-set "MAX_WAIT_ITER=36"   REM 36*5=180 seconds max wait for stop
+set "MAX_WAIT_ITER=36"   
+
+REM 36*5=180 seconds max wait for stop
 
 REM === Log Script Start ===
 echo [%date% %time%] Script started. Waiting %INITIAL_WAIT_SEC% seconds before restart. >> "%LOGFILE%"
