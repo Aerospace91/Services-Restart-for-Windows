@@ -1,9 +1,9 @@
 # Windows-D2D-Scripts
 Various Windows Scripts for ease of use and automations
 
-##servicerestart.bat
+## servicerestart.bat
 ---
-###Usage:
+### Usage:
 Task Scheduler -> Create Task
 Action: Start a Program
 Program/Script: cmd.exe
